@@ -1,0 +1,200 @@
+body{
+    width:100%;
+    background-color: #dadada;
+    font-family: Segoe UI;
+}
+
+#body_acc{
+    background-color: white;
+}
+
+nav{
+    background-color: white;
+}
+
+#connexion_form{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+
+.input_connexion{
+    border: none;
+    background-color: #6eb9e6;
+    height: 35px;
+    border-radius: 10%;
+    color: white;
+}
+
+.submit_connexion{
+    background-color: #1060ee;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 10%;
+    width:70%;
+    height:40px;
+}
+
+#motDePasseOublie{
+    color: black;
+}
+
+#motDePasseOublie:hover{
+    color: #1060ee;
+}
+
+#paiementLoyer{
+    height:20%;
+    background-color: #dadada;
+    padding-bottom: 3%;
+}
+
+#titreLoyer{
+    background-color: #f39100;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    width:100%;
+    padding-top: 2%;
+    height:100px;
+    font-size: 180%;
+}
+
+#butPayer{
+    background-color: #f39100;
+    color: white;
+    font-size: bold;
+    border:none;
+    border-radius: 5%;
+    width:30%;
+}
+
+#bienvenueUser{
+    background-color: #3d5493;
+    color: white;
+    height: 200px;
+    padding: 2%;
+}
+
+#montantaPayer{
+    background-color: white;
+    margin-left: 20%;
+    padding:3%;
+}
+
+solde{
+    color: #f39100;
+    font-weight: bold;
+}
+
+#pensezPrelev{
+    font-size: 85%;
+    color: #f39100;
+}
+
+#titreModifInfos{
+    background-color: #17b2d3;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    width:100%;
+    padding-top: 2%;
+    height:100px;
+    font-size: 180%;
+}
+
+#InfoEnCours{
+    color: #1e7e34;
+    font-weight: bold;
+}
+
+.MajInfos{
+    border:none;
+    width: 25%;
+    background-color: #17b2d3;
+    color: white;
+    font-size: bold;
+    text-align: center;
+}
+
+reserve{
+    font-size: 70%;
+}
+
+#paiementUser{
+    background-color: #f39100;
+    color: white;
+    height: 200px;
+    padding:2%;
+}
+
+#paiementUser:hover{
+    background-color: #dadada;
+    color: black;
+    height: 200px;
+    padding:2%;
+}
+
+#modifUser{
+    background-color: #17b2d3;
+    color: white;
+    height: 200px;
+    padding:2%;
+}
+
+#modifUser:hover{
+    background-color: #dadada;
+    color: black;
+    height: 200px;
+    padding:2%;
+}
+
+#contactUser{
+    background-color: #e6007e;
+    color: white;
+    height: 200px;
+    padding:2%;
+}
+
+#contactUser:hover{
+    background-color: #dadada;
+    color: black;
+    height: 200px;
+    padding:2%;
+}
+
+#titreContact{
+    background-color: #e6007e;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    width:100%;
+    padding-top: 2%;
+    height:100px;
+    font-size: 180%;
+}
+
+#selectContact{
+    width: 100%;
+}
+
+#messageContact{
+    width: 100%;
+    height: 400px;
+    resize: none;
+}
+
+#butContact{
+    background-color: #e6007e;
+    border:none;
+    height:50px;
+    color: white;
+    font-weight: bold;
+}
+
+.tableau_scroll{
+    height: 50px;
+    overflow: scroll;
+}

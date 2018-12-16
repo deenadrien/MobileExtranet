@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Paiement loyer</title>
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="50px"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="accueil_mobile.html">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Payer mon loyer <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modification_infos.html">Modifier mes informations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historique_compte.html">Historique du compte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_mobile.html"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="titreModifInfos">
+        Modifier mes informations
+    </div>
+    <br>
+    <div class="container-fluid" id="paiementLoyer">
+        <div id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Adresse mail
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p id="InfoEnCours">declercq46@gmail.com</p>
+                        Nouvelle adresse mail <input type="email" required>
+                        <br>
+                        <br>
+                        <center><input type="submit" value="Mettre à jour" class="MajInfos"></center>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Numéro de téléphone portable
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <p id="InfoEnCours">0602354168</p>
+                        Nouveau numéro <input type="tel" required>
+                        <br>
+                        <br>
+                        <center><input type="submit" value="Mettre à jour" class="MajInfos"></center>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Numéro de téléphone fixe
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <p id="InfoEnCours">0328219022</p>
+                        Nouveau numéro <input type="tel" required>
+                        <br>
+                        <br>
+                        <center><input type="submit" value="Mettre à jour" class="MajInfos"></center>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Opter pour la dématérialisation
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <input type="checkbox"> Oui, j'opte pour la dématérialisation de mes documents. Je ne recevrai plus mon avis d'échéance sur papier et je m'engage à payer en ligne ou par prélèvement automatique, mensuel ou à l'échéance. Cette option prendra effet dès la prochaine quittance.
+                        Si vous validez cette option, un courriel vous informant de chaque mise en ligne des documents dans votre espace personnel sera envoyé à l'adresse que vous avez fournie.
+                        <br>
+                        <br>
+                        <center><input type="submit" value="Mettre à jour" class="MajInfos"></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

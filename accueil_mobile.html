@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Accueil</title>
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="50px"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Payer mon loyer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Modifier mes informations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Historique du compte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_mobile.html"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="bienvenueUser">
+        <center><b>Bienvenue, Monsieur DUPONT Francis</b></center>
+        <center>Vous êtes sur votre contrat <b>L/2080031</b></center>
+        <center><img src="img/apartment.png" height="70px"></center>
+        <center>situé au 2 RUE LOUIS BURNOD lot n° 0 59140 DUNKERQUE</center>
+    </div>
+    <a id="hrefPaiement" href="paiement_loyer.html"><div class="container-fluid" id="paiementUser">
+        <center><b>Payer mon loyer</b></center>
+        <br>
+        <center><img src="img/coin.png" height="70px"></center>
+    </div></a>
+    <a id="hrefPaiement" href="contact_us.html"><div class="container-fluid" id="contactUser">
+        <center><b>Nous contacter</b></center>
+        <br>
+        <center><img src="img/mail.png" height="70px"></center>
+    </div></a>
+    <a id="hrefPaiement" href="historique_compte.html"><div class="container-fluid" id="paiementUser">
+        <center><b>Historique du compte</b></center>
+        <br>
+        <center><img src="img/calendar.png" height="70px"></center>
+    </div></a>
+    <a id="hrefPaiement" href="modification_infos.html"><div class="container-fluid" id="modifUser">
+        <center><b>Modifier mes informations</b></center>
+        <br>
+        <center><img src="img/file.png" height="70px"></center>
+    </div></a>
+</body>
+</html>

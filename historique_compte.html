@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Paiement loyer</title>
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="50px"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="accueil_mobile.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paiement_loyer.html">Payer mon loyer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modification_infos.html">Modifier mes informations</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Historique du compte <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_mobile.html"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="titreLoyer">
+        Historique du compte
+    </div>
+    <div class="container-fluid" id="paiementLoyer">
+        <table class="table table-striped">
+            <thead class="thead-inverse">
+            <tr id="solde_tab">
+                <th width="75%">Solde <reserve>(sous réserve de paiements en cours de traitement)</reserve></th>
+                <th></th>
+                <th></th>
+                <th><reserve>605,06 €<a href="#">&nbsp;Payer</reserve></a></th>
+            </tr>
+            </thead>
+        </table>
+        <table class="table table-striped" id="second_tableau">
+            <thead class="thead-inverse">
+            <tr>
+                <th width="16%">Date</th>
+                <th width="56%">Libellé d'opération</th>
+                <th width="13%">Débit</th>
+                <th>Crédit</th>
+            </tr>
+            </thead>
+        </table>
+        <div id="tableau_scroll"  class="tertiaire_tableau">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>25/12/2017</td>
+                        <td>QUITTANCEMENT DECEMBRE</td>
+                        <td>450,00 €</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
